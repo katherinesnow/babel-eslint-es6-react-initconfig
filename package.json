@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "babel": "babel src -w -d lib ",
-    "lint": "eslint",
+    "eslint": "eslint",
     "eslintInit": "eslint --init"
   },
   "keywords": [
@@ -24,6 +24,9 @@
     "babel-preset-stage-0": "^6.16.0",
     "babel-register": "^6.18.0",
     "eslint": "^3.11.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.1",
     "eslint-plugin-react": "^6.7.1"
   }
 }

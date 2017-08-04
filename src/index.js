@@ -10,6 +10,7 @@ babel.transform(es6Code,{
 
 
 Array.from({length:100}).map(function(item,index){return index});
+//console.log(111);
 
 
 /*Babel默认值转换新的JS语法，而不转换新的API
